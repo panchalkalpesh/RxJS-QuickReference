@@ -4,3 +4,11 @@
 
 [RxJS](https://github.com/ReactiveX/rxjs) is a JavaScript library for [ReactiveX](http://reactivex.io/) (Reactive Programming) which provides an API for asynchronous programming with observable streams.
 
+
+## Dev Setup (Webpack and Typescript)
+
+### Install Dev Dependencies
+```
+npm install --save-dev webpack webpack-dev-server typescript ts-loader
+```
+
