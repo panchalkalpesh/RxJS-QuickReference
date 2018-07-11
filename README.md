@@ -12,3 +12,13 @@
 npm install --save-dev webpack webpack-dev-server typescript ts-loader
 ```
 
+
+
+**Add the following to npm package.json scripts:**
+```
+...
+"scripts": {
+  "start": "webpack-dev-server --mode development"
+},
+...
+```
