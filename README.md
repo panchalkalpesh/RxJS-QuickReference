@@ -9,6 +9,9 @@
 
 ### Install Dev Dependencies
 ```
+npm init -y
+# only if new project
+
 npm install --save-dev webpack webpack-dev-server typescript ts-loader
 ```
 
@@ -52,3 +55,24 @@ module.exports = {
 };
 ```
 
+
+**Configure TypeScript**
+```
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "noImplicitAny": true,
+    "module": "es6",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "target": "es6",
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "lib": [
+      "es2017",
+      "dom"
+    ]
+  }
+}
+```
