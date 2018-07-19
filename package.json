@@ -1,0 +1,29 @@
+{
+  "name": "RxJS-QuickReference",
+  "version": "1.0.0",
+  "description": "RxJS - Quick Reference Guide",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/panchalkalpesh/RxJS-QuickReference.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/panchalkalpesh/RxJS-QuickReference/issues"
+  },
+  "homepage": "https://github.com/panchalkalpesh/RxJS-QuickReference#readme",
+  "devDependencies": {
+    "webpack-cli": "^3.1.0"
+  },
+  "dependencies": {
+    "ts-loader": "^4.4.2",
+    "typescript": "^2.9.2",
+    "webpack": "^4.16.1",
+    "webpack-dev-server": "^3.1.4"
+  }
+}

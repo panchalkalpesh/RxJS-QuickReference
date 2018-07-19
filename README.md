@@ -12,7 +12,9 @@
 npm init -y
 # only if new project
 
-npm install --save-dev webpack webpack-dev-server typescript ts-loader
+npm install --save-dev webpack-cli
+
+npm install --save webpack webpack-dev-server typescript ts-loader
 ```
 
 
